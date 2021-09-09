@@ -33,3 +33,5 @@ elif (select_menu == 'Dataset') & (select_data == 'World'):
 else:
     st.markdown("## 대한민국 인구수 그래프")
     st.area_chart(Korea)
+
+ 
