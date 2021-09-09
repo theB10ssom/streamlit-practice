@@ -1,6 +1,7 @@
 # Streamlit 연습
 
 ## Streamlit 배포 방법  
+링크 참고 : https://docs.streamlit.io/en/stable/deploy_streamlit_app.html  
 `<주의> Streamlit cloud invitation이 있는 상태여야함.`  
 <br>
 1. public repository 생성 (free tier의 경우)  
