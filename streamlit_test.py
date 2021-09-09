@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-base = pd.read_csv("https://github.com/theB10ssom/streamlit-practice/blob/main/test_dataset.csv", sep = ",")
+base = pd.read_csv("test_dataset.csv")
 
 Korea = base.loc[:,['Year', 'Population_K', 'Birth_K', 'Deaths_K']].dropna().set_index('Year')
 Japan = base.loc[:,['Year', 'Population_J', 'Birth_J', 'Deaths_J']].dropna().set_index('Year')
